@@ -48,8 +48,8 @@ export const Box: React.FC<BoxProps> = (props) => {
 
   return (
     <mesh {...props} ref={mesh}>
-      <boxBufferGeometry attach="geometry" args={[1, 1, 1]} />
-      <meshStandardMaterial metalness={0.1} attach="material" />
+      <boxBufferGeometry attach="geometry" args={[2, 2, 2]} />
+      <meshStandardMaterial metalness={0.1} attach="material" color="orange" />
     </mesh>
   );
 };
